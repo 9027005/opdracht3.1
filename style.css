@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+.main {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./img/background.jpeg);
+}
+.first {
+  color: white;
+  text-align: center;
+  margin-top: 30vh;
+  font-size: 60px;
+}
+footer {
+  font-size: 20px;
+  background-color: #00a8c7;
+  text-align: center;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  bottom: 0px;
+}
+.foottxt {
+  color: white;
+  margin-top: 3vh;
+}
+.bg1{
+  color: white;
+}
+.htmlh1 {
+  color: black;
+  margin-top: 7vh;
+  text-align: center;
+  font-size: 60px;
+}
+.htmlh2 {
+  color: black;
+  margin-top: 5vh;
+  margin-left: 50vw;
+  font-size: 30px;
+}
+.htmltxt {
+  color: black;
+  margin-top: 5vh;
+  margin-left: 50vw;
+  font-size: 15px;
+}
+.htmlimg {
+  position: fixed;
+  top: 35vh;
+  left: 7%;
+  width: 30vw;
+}
+.phpimg {
+  position: fixed;
+  top: 43vh;
+  left: 7%;
+  width: 27vw;
+}
+.bg2 {
+  background-color: black;
+}
+.javatxt {
+  color: white;
+  margin-top:5vh;
+  margin-left: 5vw;
+  font-size: 15px;
+}
+.javah1 {
+  color: white;
+  margin-top: 7vh;
+  text-align: center;
+  font-size: 60px;
+}
+.javah2 {
+  color: white;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  font-size: 30px;
+}
+.javaimg {
+  position: fixed;
+  width: 20vw;
+  right: 10%;
+  top: 40vh;
+}
+.name1 {
+  margin-left: 30vw;
+  font-size: 15px;
+}
+.name {
+  margin-left: 30vw;
+  width: 40vw;
+  border-radius: 3px;
+}
+.mail1 {
+  margin-left: 30vw;
+  font-size: 15px;
+}
+.mail {
+  margin-left: 30vw;
+  width: 40vw;
+  border-radius: 3px;
+}
+.msg1 {
+  margin-left: 30vw;
+  font-size: 15px;
+}
+.msg {
+  margin-left: 30vw;
+  width: 40vw;
+  height: 30vh;
+  border-radius: 3px;
+}
+.send {
+  color: white;
+  background-color: #00a8c7;
+  border-style: none;
+  width: 40vw;
+  height: 5vh;
+  margin-top: 2vh;
+  margin-left: 30vw;
+}
