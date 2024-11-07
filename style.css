@@ -158,3 +158,34 @@ footer {
   margin-top: 2vh;
   margin-left: 30vw;
 }
+.dropdownbtn {
+  background-color: #E9E9E9;
+  padding: 1vw;
+  height: 10vh;
+  width: 8vw;
+}
+.dropbtn {
+  color: #00a8c7;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E9E9E9;
+  max-width: 20vw;
+  z-index: 1;
+
+  box-shadow: 0rem 0.5rem 1rem 0rem rgb(0, 0, 0, 0.2);
+}
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: grey;
+  z-index: 1;
+}
